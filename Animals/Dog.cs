@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Animals
 {
-    internal class Dog : Animal
+    // overerven van Animal
+    internal class Dog
     {
-        public string Breed { get; set; }
 
-        public Dog(int legs, bool canFly,
-            int averageLifeExpectancy, string breed) : base(legs,
-                canFly, averageLifeExpectancy)
-        {
-            Breed = breed;
-        }
+        // extra property voor breed (ras)
+
+
+        // constructor waarbij alle properties van Dog ingevuld worden
+        
+
     }
 }

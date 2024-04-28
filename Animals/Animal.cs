@@ -20,15 +20,9 @@ namespace Animals
             AverageLifeExpectancy = averageLifeExpectancy;
         }
 
-        public override string ToString()
-        {
-            string fly = "cannot";
-            if (CanFly) fly = "can";
+        // info methode voor animal
+        // return voorbeeld: This animal has 4 legs and cannot fly.
+        
 
-            return "This animal has " + Legs
-                + " legs and " + fly + " fly.";
-
-            // voorbeeld: This animal has 4 legs and cannot fly.
-        }
     }
 }

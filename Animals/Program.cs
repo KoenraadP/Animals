@@ -10,11 +10,13 @@ namespace Animals
     {
         static void Main(string[] args)
         {
-            Animal a = new Animal(3,true,5);
-            Dog d = new Dog(4,false,60, "Duitse Herder");
 
-            Console.WriteLine(a);
-            Console.WriteLine(d);
+            // dier aanmaken dat 3 poten heeft, wel kan vliegen en gemiddeld 5 jaar leeft
+
+
+            // info over dier in console plaatsen
+            
+
         }
     }
 }

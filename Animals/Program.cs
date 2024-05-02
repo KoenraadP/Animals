@@ -14,8 +14,12 @@ namespace Animals
             // dier aanmaken dat 3 poten heeft, wel kan vliegen en gemiddeld 5 jaar leeft
 
 
-            // info over dier in console plaatsen
+            // hond aanmaken, vrije keuze!
+
+
+            // info over vreemd dier en hond in console plaatsen
             
+
 
         }
     }

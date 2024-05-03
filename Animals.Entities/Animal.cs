@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Animals
 {
-    internal class Animal
+    public class Animal
     {
         public int Legs { get; set; }
         public bool CanFly { get; set; }

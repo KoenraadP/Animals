@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Animals
 {
     // overerven van Animal
-    internal class Dog : Animal
+    public class Dog : Animal
     {
 
         // extra property voor breed (ras)

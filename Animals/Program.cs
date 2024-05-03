@@ -21,6 +21,11 @@ namespace Animals
             Console.WriteLine(a);
             Console.WriteLine(d);
 
+            Console.WriteLine(Zoo.Name);
+            Console.WriteLine(Zoo.Location);
+
+            Zoo.Animals = new List<Animal> { a, d};
+
             // readline om het programma nog even te laten wachten
             Console.ReadLine();
         }

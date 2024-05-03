@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Animals
 {
-    internal class Bird : Animal
+    public class Bird : Animal
     {
         public string[] Colors { get; set; }
 
